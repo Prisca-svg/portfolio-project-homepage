@@ -26,7 +26,7 @@ h2{
 .bs-secondary-color{
     background: rgb(241, 240, 240) !important;
 }
-}
+
 p{
 
   font-weight: normal;
@@ -68,18 +68,19 @@ p{
     padding: 15px 30px; 
 }
 .yogurt-description{
-    padding: 120px 60px;
+    padding: 120px 55px;
 }
-.dictionary-app{
-    padding: 30px 25px;
+.dictionary-image{
+    padding: 50px 20px;
 }
-@media (max-width:900px){
+
+@media (max-width:960px){
     h1{
-        font-size: 42px;
+        font-size: 40px;
         line-height: 1.5;
     }
     h2{
-        font-size: 42px;
+        font-size: 36px;
         line-height: 1.5;
     }
     .yogurt-description{
@@ -88,5 +89,8 @@ p{
     }
     .hero{
         padding: 80px 20px;
+    }
+    p{
+        line-height: 1.5;
     }
 }
