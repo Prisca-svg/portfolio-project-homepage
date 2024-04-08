@@ -111,10 +111,7 @@ nav a{
     color: #272142;
     transition: all 100ms ease-in-out;
 }
-nav li.active a{
-    color: var(--branding-color)
-}
-nav a:hover{
+nav a:hover, nav li.active a{
     color: var(--branding-color);
 }
 .work-direction{
@@ -158,5 +155,9 @@ line-height: 1;
     .content-container h1{
         font-size: 40px;
         line-height: normal;
+    }
+    nav a {
+        font-size: 14px;
+        margin-right: 15px;
     }
 }
